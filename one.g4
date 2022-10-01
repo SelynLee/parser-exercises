@@ -1,10 +1,7 @@
 grammar one;
 
-var rules = {
-    S -> aS
-    expression = a*
-};
+S → A111A
 
-
+A → aA|bA|ε
 
 prog: '';
